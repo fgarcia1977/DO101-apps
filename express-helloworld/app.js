@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/ferny', function(req, res) {
-  res.send('Hola Fernando!\n');
+  res.send('Hola Fernando!\n Esto no está mal...');
 });
 
 
