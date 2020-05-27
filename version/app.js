@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Esta es la versión DOS! de la aplicación.' + '\n';
+    response = 'Esta es la versión TRES! de la aplicación.' + '\n' + 'se debería lanzar el BUILD automáticamente.';
 
     //send the response to the client
     res.send(response);
